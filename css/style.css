@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;600;700&&display=swap');
+
+:root {
+	--primary-color: #8f9ec3;
+	--secondary-color: #94adc8;
+	--tertiary-color: #f9995d;
+	--gray-color: #c4c4c4;
+	--black-color: #1c1b1f;
+	--blue-color: #0b4583;
+
+	--font-title: 'Bree Serif', serif;
+	--font-primary: 'Mukta', sans-serif;
+	--font-body: 'Martel', serif;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: var(--font-primary);
+}
+
+#hero {
+	min-height: 90vh;
+	background-position: center;
+	background-size: cover;
+}
+
+#hero > .container {
+	min-height: 90vh;
+}
+
+.hero-title {
+	right: 0;
+	bottom: 1em;
+}
+
+.fs-super {
+	font-size: 4rem;
+}
+
+.font-title {
+	font-family: var(--font-title);
+}
+
+.font-body {
+	font-family: var(--font-body);
+}
+
+.text-active {
+	color: var(--tertiary-color);
+}
+
+.text-justify {
+	hyphens: auto;
+}
+
+.bg-time {
+	background-color: var(--primary-color);
+}
+
+.bg-door {
+	background-color: var(--secondary-color);
+}
+
+.bg-gray {
+	background-color: var(--gray-color);
+}
+
+.bg-blue {
+	background-color: var(--blue-color);
+}
+
+.testimony-card {
+	min-height: 18em;
+	background-color: var(--black-color);
+}
+
+.service-card > div > p {
+	min-height: 6em;
+}
+
+.service-image {
+	aspect-ratio: 16/10;
+	object-fit: cover;
+	object-position: center;
+}
+
+.location-card {
+	aspect-ratio: 1;
+	background-size: cover;
+	background-position: center;
+	background-color: var(--black-color);
+}
+
+.location-card > h2 {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.news-card > p {
+	min-height: 8em;
+}
+
+.news-image {
+	aspect-ratio: 16/10;
+	object-fit: cover;
+	object-position: center;
+}
+
+.divider {
+	height: 5px;
+	background-color: var(--black-color);
+}
+
+.avatar {
+	width: 2em;
+	aspect-ratio: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	width: 2em;
+}
+
+.icon {
+	width: 1em;
+}
